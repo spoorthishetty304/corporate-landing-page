@@ -1,0 +1,75 @@
+/* Styles for the Buy Website page */
+
+/* Add specific styles for elements unique to the Buy Website page */
+/* For example, you can style headings, paragraphs, and links */
+
+body {
+    background-image: url('about-us background.jpg'); /* Set your background image here */
+    background-size: cover;
+    background-position: center;
+    text-align: center; /* Center-align the content horizontally */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 100vh; /* Center-align vertically on the entire viewport height */
+}
+
+header {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    
+}
+
+footer {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    
+}
+
+h1 {
+    font-size: 28px;
+    color: #f4eeee; /* Change to your preferred text color */
+}
+
+p {
+    font-size: 16px;
+    color: #f4eeee; /* Change to your preferred text color */
+    line-height: 1.5;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+a {
+    color: #12d96f; /* Change to your preferred link color */
+    text-decoration: underline;
+    font-size: 18px;
+    margin-top: 20px; /* Adjust the top margin as needed */
+        padding: 10px 20px;
+        background-color: #080101;
+        color: #fff;
+        border: none;
+        border-radius: 50px; /* Use a high value to make it oval */
+        cursor: pointer;
+        transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s; /* Smooth transition for color, scale, and shadow */
+        text-align: center;
+        display: center;
+            flex-direction: column;
+            justify-content: center;
+           
+        
+    }
+    
+    button:hover {
+        background-color: #e38407;
+        transform: scale(1.1); /* Scale the button up slightly on hover */
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3); /* Add a shadow on hover */
+    }
+    
+    
+
+
+
+
+/* Add any other specific styles as needed */

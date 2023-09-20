@@ -1,0 +1,199 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Basic styling for header and navigation */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    font-style: italic;
+    font-size: larger;
+    
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+/* Add spacing between navigation buttons */
+nav ul li {
+    display: inline;
+    margin-left: 60px;
+    margin-right: 50px; /* Adjust this value to control the spacing */
+}
+
+
+/* Oval shape and shadow effect for buttons */
+button {
+    padding: 10px 20px;
+    background-color: #1286d9;
+    color: #fff;
+    border: none;
+    border-radius: 50px; /* Use a high value to make it oval */
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s; /* Smooth transition for color, scale, and shadow */
+}
+
+button:hover {
+    background-color: #555;
+    transform: scale(1.1); /* Scale the button up slightly on hover */
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3); /* Add a shadow on hover */
+}
+
+
+/* Dropdown menu styles */
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1; /* Set a higher z-index to make the dropdown appear above other elements */
+}
+
+.dropdown-content a {
+    display: block; /* Display list items as block elements */
+    padding: 10px 20px; /* Add padding for spacing */
+    top: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.dropdown-content a:hover {
+    background-color: #e38407;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Search bar styles */
+.search-section {
+    text-align: right;
+    margin: 20px 30px;
+    top: 10px;
+
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #1286d9;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e38407;
+}
+
+/* Oval shape and sleeping effect for navigation buttons */
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    position: relative;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0851e2;
+    color: #fff;
+    border: none;
+    border-radius: 50px; /* Use a high value to make it oval */
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s; /* Smooth transition for color, scale, and shadow */
+}
+
+nav ul li a:hover {
+    background-color: #e38407;
+    transform: scale(1.1); /* Scale the button up slightly on hover */
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3); /* Add a slight shadow on hover */
+}
+
+nav ul li a:active {
+    box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.3); /* Add a slight inset shadow on click */
+}
+
+/* Styling for the hero section */
+.hero {
+    background-image: url('background main.jpg'); /* Set your background image here */
+    background-size: cover;
+    background-position: center;
+    color: #3aa854;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    height: 100vh; /* Set the hero section height to 100% of viewport height */
+}
+
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    max-width: 800px;
+    width: 100%; /* Adjust the width as needed */
+}
+
+.hero h1 {
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.hero p {
+    font-size: 25px;
+    margin-bottom: 25px;
+
+}
+
+.btn-hero {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1286d9;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.btn-hero:hover {
+    background-color: #e38407;
+}
+
+/* Style the footer section, if needed */
+footer {
+    background-color: #333; /* Change to your preferred footer background color */
+    color: #fff; /* Change to your preferred footer text color */
+    padding: 20px 0;
+}

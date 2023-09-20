@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Registration</title>
+    <!-- Add your CSS styles here -->
+    <style>
+        /* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling for the registration page */
+body {
+    background-image: url('about-us background.jpg'); /* Replace 'your-image-url.jpg' with the actual image URL */
+    background-size: cover; /* Adjust the background size to cover the entire page */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    background-position: center center; /* Center the background image both horizontally and vertically */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 20px;
+    color: #333;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Adjust the background color opacity */
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    color: #1286d9;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #555;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] 
+{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    
+}
+
+input[type="submit"] {
+    background-color: #1286d9;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.4s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #e38407;
+}
+
+a {
+    color: #12d96f; /* Change to your preferred link color */
+    text-decoration: underline;
+    font-size: 18px;
+    margin-top: 20px; /* Adjust the top margin as needed */
+        padding: 10px 20px;
+        background-color: #080101;
+        color: #fff;
+        border: none;
+        border-radius: 50px; /* Use a high value to make it oval */
+        cursor: pointer;
+        transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s; /* Smooth transition for color, scale, and shadow */
+        text-align: center;
+        display: center;
+            flex-direction: column;
+            justify-content: center;
+           
+        
+    }
+
+footer {
+        background-color: #333; /* Change to your preferred footer background color */
+        color: #fff; /* Change to your preferred footer text color */
+        padding: 20px 0;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    </style>
+</head>
+<body>
+    <h1>Registration Form:</h1><br><br>
+    <form method="POST" action="register.php">
+        <!-- Hidden _method field to simulate PUT -->
+        <input type="hidden" name="_method" value="PUT">
+        <label for="username">Username:</label>
+        <input type="text" name="username" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" required><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" name="password" required><br><br>
+
+        <input type="submit" value="Register">
+    </form><br><br>
+    <a href="..\index.html">Back to Home</a><br><br><br><br><br><br><br><br><br><br><br>
+    <footer>
+        <p style="text-align: center;font-size:0.8em; ">&copy; 2023 All Rights Reserved</p><!-- Footer content for the About Us page -->
+    </footer>
+</body>
+</html>

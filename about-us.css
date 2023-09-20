@@ -1,0 +1,57 @@
+/* Styles for the About Us page */
+
+/* Set a background color or image for the About Us page */
+body {
+    background-image: url('about-us background.jpg'); /* Set your background image here */
+    background-size: cover;
+    background-position: center;
+    background-color: #f0f0f0; /* Change to your desired background color or image */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    
+}
+
+/* Center-align the content on the page */
+header, section, footer {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+/* Style the heading for the About Us section */
+section h1 {
+    font-size: 36px;
+    color: #010702; /* Change to your preferred text color */
+    margin: 20px 0;
+}
+
+/* Style the paragraph text for the About Us section */
+section p {
+    font-size: 18px;
+    color: #010702; /* Change to your preferred text color */
+    margin-bottom: 20px;
+}
+
+/* Style the links within the About Us content */
+section a {
+    color: #1286d9; /* Change to your preferred link color */
+    text-decoration: underline;
+    transition: color 0.3s; /* Add a smooth transition effect for link color */
+}
+
+/* Change link color on hover */
+section a:hover {
+    color: #555; /* Change to your preferred link color on hover */
+}
+
+/* Style the footer section, if needed */
+footer {
+    background-color: #333; /* Change to your preferred footer background color */
+    color: #fff; /* Change to your preferred footer text color */
+    padding: 20px 0;
+}
+
+/* Center-align footer text */
+footer p {
+    text-align: center;
+}

@@ -1,0 +1,55 @@
+/* Styles for the Contact Us page */
+.contact-page {
+    background-image: url('contact-us background.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.contact-content {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    padding: 20px;
+    border-radius: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.contact-content h1 {
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.contact-content p {
+    font-size: 25px;
+    margin-top: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a {
+    color: #12d96f; /* Change to your preferred link color */
+    text-decoration: underline;
+    font-size: 18px;
+    margin-top: 20px; /* Adjust the top margin as needed */
+        padding: 10px 25px;
+        background-color: #080101;
+        color: #fff;
+        border: none;
+        border-radius: 50px; /* Use a high value to make it oval */
+        cursor: pointer;
+        transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s; /* Smooth transition for color, scale, and shadow */
+        text-align: center;
+        display: flex;
+            flex-direction: column;
+            justify-content: center;
+           
+        
+    }
+    footer {
+        background-color: #333; /* Change to your preferred footer background color */
+        color: #fff; /* Change to your preferred footer text color */
+        padding: 20px 0;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
